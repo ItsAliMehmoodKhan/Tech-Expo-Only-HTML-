@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo Tech - Registration</title>
+</head>
+<body>
+
+    <h1>Expo Tech 2024</h1>
+    <nav>
+        <a href="Home Page.html">0.Home Page<br></a>
+        <a href="Schedule.html">1.Schedule<br></a>
+        <a href="Exhibitor Page.html">2.Exhibitors<br></a>
+        <a href="Venue.html">3.Venue<br></a>
+        <a href="Registration Page.html">4.Register<br></a>
+        <a href="FAQ Page.html">5.FAQ<br></a>
+        <a href="About Page.html">6.About Us<br></a>
+        <a href="Contact us.html">7.Contact Us<br></a>
+    </nav>
+    <h1>Expo Tech Registration</h1>
+    <form action="/submit_registration" method="post">
+
+
+        <fieldset>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    </fieldset>
+        <br>
+
+
+        <fieldset>
+            <label for="degree">Degree:</label><br>
+            <select id="degree" name="degree">
+                <option value="school">School</option>
+                <option value="college">College</option>
+                <option value="bachelors">Bachelors</option>
+                <option value="graduation">Graduation</option>
+                <option value="post_graduation">Post Graduation</option>
+            </select><br><br>
+
+
+            <label for="iot_workshop">IoT Workshop:</label>
+        <input type="checkbox" id="iot_workshop" name="iot_workshop"><br><br>
+
+    </fieldset>
+        <br>
+        
+        
+        
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
